@@ -24,6 +24,15 @@
 .DS_Store
 *.pem
 
+# IDE and editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# GitHub specific folders
+.github/
+
 # debug
 npm-debug.log*
 yarn-debug.log*
