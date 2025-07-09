@@ -116,6 +116,23 @@ The app uses NextAuth.js with a stateless JWT strategy:
 4. **Playlist Creation**: Creates new YouTube playlist with matched songs
 5. **Progress Tracking**: Real-time updates on conversion progress
 
+## ⚠️ YouTube API Quota Limitations
+
+The YouTube Data API v3 has strict quota limits:
+- **Default quota**: 10,000 units per day
+- **Playlist creation**: 50 units per playlist
+- **Video search**: 100 units per search
+- **Adding video to playlist**: 50 units per video
+
+For a 30-song playlist, you'll use approximately:
+- 50 units (create playlist) + 30 × 100 units (searches) + 30 × 50 units (additions) = **4,550 units**
+
+**Tips to manage quota:**
+- Test with smaller playlists first
+- Request quota increase from Google Cloud Console for production use
+- Consider implementing caching for repeated searches
+- Monitor your usage in the Google Cloud Console
+
 ## 🚀 Deployment
 
 ### Vercel (Recommended)
