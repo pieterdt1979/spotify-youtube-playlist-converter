@@ -1,6 +1,10 @@
 # Spotify to YouTube Playlist Converter
 
+**🎓 Educational Project - Udemy Course on AI-Assisted Development**
+
 A modern web application built with Next.js and TypeScript that allows users to seamlessly convert their Spotify playlists to YouTube playlists.
+
+> **Note**: This project was created as part of a Udemy course on Vibe Coding, focusing on learning how to leverage AI tools (like GitHub Copilot and ChatGPT) to build better applications. This demonstrates AI-assisted development skills rather than traditional coding from scratch.
 
 ## ✨ Features
 
@@ -175,6 +179,18 @@ The app can be deployed on any platform that supports Node.js:
 ## 📝 License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+## 🎓 Learning Acknowledgment
+
+This project was developed as part of a Udemy course on **Vibe Coding** - learning to use AI tools for application development. The goal was to understand how to:
+
+- **Collaborate with AI**: Effectively communicate requirements to AI coding assistants
+- **Prompt Engineering**: Craft better prompts for more accurate code generation
+- **AI-Assisted Architecture**: Design applications with AI guidance
+- **Iterative Development**: Refine and improve code through AI conversations
+- **Modern Toolchain**: Leverage AI to learn and implement current best practices
+
+This project showcases the potential of AI-assisted development and the importance of learning how to work alongside AI tools in modern software development.
 
 ## 🤝 Contributing
 
